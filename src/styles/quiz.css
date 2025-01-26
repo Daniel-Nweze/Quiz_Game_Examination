@@ -123,7 +123,7 @@ p.loading {
   color: #f39c12;
 }
 .feedback-box.full-score {
-  background-color: #003000;
+  background-color: #015301;
   border: 2px solid #f39c12;
 }
 .feedback-box.failure {
