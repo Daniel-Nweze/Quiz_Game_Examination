@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "question": "Vem sa: 'Du skall älska din nästa som dig själv'?",
+        "options": ["Shakespeare", "Jesus", "Voltaire"],
+        "answer": "Jesus"
+
+    },
+    {   "id": 2,
+        "question": "Vem har försvarat sitt bälte flest gånger i UFC?",
+        "options": ["Georges St. Pierre", "Khabib Nurmagomedov", "Jon Jones"],
+        "answer": "Jon Jones"
+    },
+    {   "id": 3,
+        "question": "Vilken fotbollsspelare har gjort flest assist i historian?",
+        "options": ["Lionel Messi", "Luka Modric", "Andres Iniesta"],
+        "answer": "Lionel Messi"
+    },
+    {   "id": 4,
+        "question": "Vad är en tomat?",
+        "options": ["Bär", "Grönsak", "Baljväxt"],
+        "answer": "Bär"
+    },
+    {   "id": 5,
+        "question": "Vilket ord saknas: 'Sjörövar fabbe farfars ___'?",
+        "options": ["sjö", "båt", "far"],
+        "answer": "far"
+    },
+    {
+        "id": 6,
+        "question": "Vad hette Sveriges första konung? ",
+        "options": ["Erik Segersäll", "Karl I", "Gustav II Adolf"],
+        "answer": "Erik Segersäll"
+
+    },
+    {   "id": 7,
+        "question": "Vem är Sveriges internationellt mest kände konung även kallad 'Lejonet från Norden'? ",
+        "options": ["Gustav Vasa", "Gustav II Adolf", "Carl XVI Gustaf"],
+        "answer": "Gustav II Adolf"
+    },
+    {   "id": 8,
+        "question": "Vem är världens rikaste man genom tiderna?",
+        "options": ["Elon Musk", "Jeff Bezos", "Mansa Musa"],
+        "answer": "Mansa Musa"
+    },
+    {   "id": 9,
+        "question": "Var kommer kanel från?",
+        "options": ["Träd", "Buske", "Grotta"],
+        "answer": "Träd"
+    },
+    {   "id": 10,
+        "question": "Vad heter Eminems dotter?",
+        "options": ["Hailie", "Rachel", "Rose"],
+        "answer": "Hailie"
+    }
+]
