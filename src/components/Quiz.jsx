@@ -60,20 +60,22 @@ const Quiz = () => {
     }, 1000);
   };
 
-  // Handle move to next question
+  // Next Question
   const handleNextQuestion = () => {
+    setTimeout(() => setTimeLeft(10), 0); 
+    setSelectedOption(null);
+    setFeedback("");
+    setIsAnswering(false);
+    
     if (currentQuestionId < questions.length) {
       setCurrentQuestionId((currentQuestion) => currentQuestion + 1);
-      setSelectedOption(null);
-      setFeedback("");
-      setTimeLeft(10);
-      setIsAnswering(false);
+   
     } else {
       handleFinishQuiz();
     }
   };
 
-  // Start over the quiz, resetting all states
+  // Start over
   const handleStartOver = () => {
     setCurrentQuestionId(1);
     setSelectedOption(null);
@@ -86,13 +88,13 @@ const Quiz = () => {
     setSlyVisible(false);
   };
 
-  // Start the quiz
+  // Start 
   const handleStartQuiz = () => {
     setHasStarted(true);
     setSlyVisible(true);
   };
 
-  // Finish the quiz and show feedback
+  // Finish 
   const handleFinishQuiz = () => {
     setIsQuizFinished(true);
     setFeedback(
@@ -100,7 +102,7 @@ const Quiz = () => {
     );
   };
 
-  // Quiz Rendering
+  // Rendering
   return (
     <div>
       <h1>Quiz Game</h1>
